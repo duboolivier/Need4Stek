@@ -18,5 +18,6 @@ int main(const int argc, const char *const *argv)
     main_loop();
     send_read_cmd(END_SIM, NULL);
     printf("SIMULATION_ENDED\n");
+    printf("AI_ENDED\n");
     return (OK);
 }
