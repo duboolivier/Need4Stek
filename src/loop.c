@@ -28,6 +28,7 @@ int main_loop(void)
             send_read_cmd(CAR_FORWARD, BASE_SPEED);
         }
     }
+    printf("SIMULATION_ENDED\n");
     return (1);
 }
 
