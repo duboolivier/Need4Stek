@@ -29,6 +29,7 @@ int main_loop(void)
         }
     }
     printf("SIMULATION_ENDED\n");
+    printf("AI_ENDED\n");
     return (1);
 }
 
